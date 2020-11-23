@@ -72,3 +72,5 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 [parameters: ('anna', 'This is my about me section, yeah yeah nah yeah', 2)]
 (Background on this error at: http://sqlalche.me/e/13/gkpj)
 2020-11-23 20:59:06,701 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
+2020-11-23 21:33:14,256 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
+2020-11-23 21:33:21,481 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
