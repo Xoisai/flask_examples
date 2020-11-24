@@ -76,3 +76,5 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 2020-11-23 21:33:21,481 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
 2020-11-24 12:31:10,092 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
 2020-11-24 12:53:25,356 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
+2020-11-24 14:54:20,637 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
+2020-11-24 15:01:28,554 INFO: Test website startup [in /home/isaac/Documents/examples/flask/app/__init__.py:51]
