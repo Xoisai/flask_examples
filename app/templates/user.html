@@ -18,6 +18,7 @@
                         {{ form.submit(value='Follow') }}
                     </form>
                 </p>
+                <!-- EITHER COMMENT THESE OUT OR PUT INSIDE FORMS - NOT ALLOWED IN PARAGRAPH APPAZ -->
                 {% else %}
                 <p>
                     <form action="{{ url_for('unfollow', username=user.username) }}" method="post">
