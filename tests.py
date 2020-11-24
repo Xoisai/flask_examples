@@ -6,10 +6,19 @@ from app.models import User, Post
 
 class UserModelCase(unittest.TestCase):
     def setUp(self):
+        '''
+        This function runs before every test - this is simply creating a test
+        database so our testing does not influence the real database. The
+        create_all function creates all tables in the database.
+        '''
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite://'
         db.create_all()
 
     def tearDown(self):
+        '''
+        This function runs after every test - this simply destroys the session
+        and clears changes.
+        '''
         db.session.remove()
         db.drop_all()
 
