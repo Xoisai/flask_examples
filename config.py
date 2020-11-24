@@ -16,4 +16,4 @@ class Config(object):
     ADMINS = ['isaacrayment123@gmail.com']
 
     # Paging
-    POSTS_PER_PAGE = 3
+    POSTS_PER_PAGE = 10
